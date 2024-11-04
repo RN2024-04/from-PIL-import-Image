@@ -1,0 +1,20 @@
+# 1
+from PIL import Image
+
+im=Image.open('photo.jpg')
+new=im.resize((100,100))
+new.show()
+
+
+# 2
+import requests
+
+response = requests.get('https://www.example.com')
+print(response.text)
+
+# 3
+import numpy as np
+
+list1 = [2, 4, 6, 8]
+array1 = np.array(list1)
+print(array1)
